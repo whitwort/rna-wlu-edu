@@ -1,0 +1,173 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/bootstrap.css">
+        <!-- endbuild -->
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+    </head>
+    <body>
+        <!-- Top navbar -->
+        <div class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">RNA@wlu</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a data-toggle="modal" href="#aboutModal">About</a></li>
+                <li><a href="https://github.com/whitwort/rna-wlu-edu/issues">Report Problems</a></li>
+              </ul>
+            </div><!--/.navbar-collapse -->
+          </div>
+        </div>
+    
+        <!-- Main jumbotron -->
+        <div class="jumbotron">
+          <div class="container">
+            <h1>Welcome to RNA</h1>
+            <p>The RNA server at <a href="http://www.wlu.edu/">Washington & Lee</a> hosts web applications and resources which promote interactive learning and quantitative analysis in the biosciences.</p>
+            <br>
+            <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-content="To request access to applications hosted here, please <a href='http://www2.wlu.edu/x23921.xml?InsertFile=x55999'>contact me</a>!" data-original-title="" title="">
+              Request access
+            </button>
+            <a data-toggle="modal" href="#twitterModal" class="btn btn-default">Server status  &raquo;</a>
+          </div>
+        </div>
+    
+        <div class="container">
+          <!-- Example row of columns -->
+          <div class="row">
+            <div class="col-lg-3 col-sm-4">
+              <a href="http://rna.wlu.edu/webmo" class="thumbnail">
+                <h2>WebMO</h2>
+                <img src="images/webmo.png" class="img-responsive" alt="ribose molecule">
+                <p>A friendly interface to a rich suite of computational chemistry tools.</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-4">
+              <a href="http://rna.wlu.edu/r" class="thumbnail">
+                <h2>RStudio</h2>
+                <img src="images/rstudio.png" class="img-responsive" alt="rstudio interface">
+                <p>An interactive environment for exploring and visualizing data in R.</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-4">
+              <a href="http://rna.wlu.edu/websvn" class="thumbnail">
+                <h2>Subversion</h2>
+                <img src="images/websvn.png" class="img-responsive" alt="websvn interface">
+                <p>Version control management for data and notebook documents.</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-4">
+              <a href="http://rna.wlu.edu/shiny/anovaPlayground/" class="thumbnail">
+                <h2>ANOVA playground</h2>
+                <img src="images/anovaplayground.png" class="img-responsive" alt="graph">
+                <p>An interactive visualizaton designed to help students understand the mechanics of ANOVA.</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-4">
+              <a href="http://rna.wlu.edu/shiny/apModel/" class="thumbnail">
+                <h2>Action Potential</h2>
+                <img src="images/apmodel.png" class="img-responsive" alt="graph">
+                <p>Explore the Hodgkin-Huxley model of a neuronal action potential.</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-4">
+              <a href="http://rna.wlu.edu/shiny/bindingModel/" class="thumbnail">
+                <h2>Protein Binding</h2>
+                <img src="images/bindingmodel.png" class="img-responsive" alt="graph">
+                <p>An interactive visualization of protein-ligand binding.</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-4">
+              <a href="http://rna.wlu.edu/shiny/enzymeModel/" class="thumbnail">
+                <h2>Michaelis-Menton</h2>
+                <img src="images/enzymemodel.png" class="img-responsive" alt="graph">
+                <p>Explore the Michaelis-Menton model of enzymatic reactions.</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Status Modal -->
+        <div class="modal fade" id="twitterModal" tabindex="-1" role="dialog" aria-labelledby="serverStatus" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Server status</h4>
+              </div>
+              <div class="modal-body">
+                <a class="twitter-timeline" href="https://twitter.com/rnawlu" data-widget-id="371386511838564352" data-chrome="noborders" width="540" height="275">Tweets by @rnawlu</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.modal -->
+        
+        <!-- About Modal -->
+        <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="aboutRNA" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">About RNA Server</h4>
+              </div>
+              <div class="modal-body">
+                <h3>Why RNA?</h3>
+                  <p>A popular trend in the early days of hosting genomics and bioinformatics resources on the web was to create dna.*.edu domains.  The choice of  RNA for the domain of this server is a play on that tradition.</p>
+                  <p>In cellular life, <a href="http://en.wikipedia.org/wiki/DNA">DNA</a> is amazingly well suited to its core biological role: serving as a (relatively) static repository of information for the cell.  <a href="http://en.wikipedia.org/wiki/RNA">RNA</a>, by contrast, is the molecule which allows this information to be used in dynamic and complex ways.</p>
+                  <p>This makes RNA the perfect analogy for the mission of the teaching and research tools hosted here:  we're not just interested in data, but how data can be represented and explored in interesting and dynamic ways!</p>                 
+                <h3>How did this service come to be?</h3>
+                  <p>This server is maintained by <a href='http://www2.wlu.edu/x23921.xml?InsertFile=x55999'>Gregg Whitworth</a>; both he and the server hardware were brought to W&L through the <a href="http://www2.wlu.edu/x59153.xml">HHMI Grant Initiative</a>.  Additionally, licensing for some of the software hosted here has been supported through the <a href="http://www2.wlu.edu/x35119.xml">Office of the Dean's</a> minigrant program.  The server hardware and network infrastructure are supported by the excellent folks at <a href="http://its.wlu.edu">W&L ITS</a>.</p>
+                <h3>I can't log in!</h3>
+                  <p>For a variety of reasons, RNA server uses a different set of login credentials than the main W&L network services (email, sakai, etc.).  If you'd like to request access for yourself or your classes just <a href='http://www2.wlu.edu/x23921.xml?InsertFile=x55999'>contact me</a>!</p>
+                <h3>Where do I report problems?</h3>
+                  <p>Please report bugs, crashes and feature requests at the main <a href="https://github.com/whitwort/rna-wlu-edu/issues">GitHub repository for this site</a>.</p>
+                <h3>Where can I learn more?</h3>
+                  <p>The full source for this site is <a href="https://github.com/whitwort/rna-wlu-edu">publically available at Github</a>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.modal -->
+
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Google Analytics -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-33566631-1');ga('send','pageview');
+        </script>
+
+        <!-- build:js scripts/main.js -->
+        <script data-main="scripts/main" src="bower_components/requirejs/require.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
