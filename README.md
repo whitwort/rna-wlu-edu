@@ -3,7 +3,7 @@ rna-wlu-edu
 
 Front end for [rna.wlu.edu](http://rna.wlu.edu).
 
-This project is setup to be built with grunt:
+This project is setup to be built with [grunt](http://gruntjs.com/):
 
 ```js
 grunt build
