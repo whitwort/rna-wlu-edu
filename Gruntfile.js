@@ -15,6 +15,8 @@ module.exports = function (grunt) {
         app: 'app',
         dist: 'dist'
     };
+    
+    grunt.loadNpmTasks('grunt-contrib-compass');
 
     grunt.initConfig({
         yeoman: yeomanConfig,

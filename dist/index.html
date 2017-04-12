@@ -10,8 +10,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="styles/a4bd5b60.main.css">
-        <script src="scripts/vendor/d7100892.modernizr.js"></script>
+        <link rel="stylesheet" href="styles/76136da7.main.css">
+        <script src="scripts/vendor/7d72bbd1.modernizr.js"></script>
     </head>
     <body>
         <!-- Top navbar -->
@@ -27,9 +27,13 @@
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#apps">Applications</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#papers">Papers</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
                 <li><a data-toggle="modal" href="#aboutModal">About</a></li>
-                <li><a href="https://github.com/whitwort/rna-wlu-edu/issues">Report Problems</a></li>
+                <li><a href="https://github.com/whitwort/rna-wlu-edu/issues" class="navbar-right">Report Problems</a></li>
               </ul>
             </div><!--/.navbar-collapse -->
           </div>
@@ -49,55 +53,89 @@
         </div>
     
         <div class="container">
-          <!-- Example row of columns -->
+          <div class="page-header" id="apps"><h1>Applications</h1></div>
           <div class="row">
-            <div class="col-lg-3 col-sm-4">
-              <a href="http://rna.wlu.edu/webmo" class="thumbnail">
-                <h2>WebMO</h2>
-                <img src="images/8558a252.webmo.png" class="img-responsive" alt="ribose molecule">
-                <p>A friendly interface to a rich suite of computational chemistry tools.</p>
-              </a>
-            </div>
-            <div class="col-lg-3 col-sm-4">
+            <div class="col-md-4">
               <a href="http://rna.wlu.edu/r" class="thumbnail">
-                <h2>RStudio</h2>
+                <h4>RStudio</h4>
                 <img src="images/bdc3d45d.rstudio.png" class="img-responsive" alt="rstudio interface">
                 <p>An interactive environment for exploring and visualizing data in R.</p>
               </a>
             </div>
-            <div class="col-lg-3 col-sm-4">
-              <a href="http://rna.wlu.edu/websvn" class="thumbnail">
-                <h2>Subversion</h2>
-                <img src="images/336084c2.websvn.png" class="img-responsive" alt="websvn interface">
-                <p>Version control management for data and notebook documents.</p>
+            <div class="col-md-4">
+              <a href="http://rna.wlu.edu/webmo" class="thumbnail">
+                <h4>WebMO</h4>
+                <img src="images/8558a252.webmo.png" class="img-responsive" alt="ribose molecule">
+                <p>A friendly interface to a rich suite of computational chemistry tools.</p>
               </a>
             </div>
-            <div class="col-lg-3 col-sm-4">
+            <div class="col-md-4">
               <a href="http://rna.wlu.edu/shiny-apps/anovaPlayground/" class="thumbnail">
-                <h2>ANOVA playground</h2>
+                <h4>ANOVA playground</h4>
                 <img src="images/ba6f741f.anovaplayground.png" class="img-responsive" alt="graph">
                 <p>An interactive visualizaton designed to help students understand the mechanics of ANOVA.</p>
               </a>
             </div>
-            <div class="col-lg-3 col-sm-4">
+            <div class="col-md-4">
               <a href="http://rna.wlu.edu/shiny-apps/apModel/" class="thumbnail">
-                <h2>Action Potential</h2>
+                <h4>Action Potential</h4>
                 <img src="images/484ad232.apmodel.png" class="img-responsive" alt="graph">
                 <p>Explore the Hodgkin-Huxley model of a neuronal action potential.</p>
               </a>
             </div>
-            <div class="col-lg-3 col-sm-4">
+            <div class="col-md-4">
               <a href="http://rna.wlu.edu/shiny-apps/bindingModel/" class="thumbnail">
-                <h2>Protein Binding</h2>
+                <h4>Protein Binding</h4>
                 <img src="images/d810106f.bindingmodel.png" class="img-responsive" alt="graph">
                 <p>An interactive visualization of protein-ligand binding.</p>
               </a>
             </div>
-            <div class="col-lg-3 col-sm-4">
+            <div class="col-md-4">
               <a href="http://rna.wlu.edu/shiny-apps/enzymeModel/" class="thumbnail">
-                <h2>Michaelis-Menton</h2>
+                <h4>Michaelis-Menton</h4>
                 <img src="images/8833bdb3.enzymemodel.png" class="img-responsive" alt="graph">
                 <p>Explore the Michaelis-Menton model of enzymatic reactions.</p>
+              </a>
+            </div>
+          </div>
+          <div class="page-header" id="courses"><h1>Courses</h1></div>
+          <div class="row">
+            <div class="col-md-4">
+              <a href="https://rna.wlu.edu/bio185/" class="thumbnail">
+                <h4>Bio 185</h4>
+                <img src="images/9f014e6b.bio185.png" class="img-responsive" alt="classes">
+                <p>Course website for Biol-185: Data science.  Check out the projects link for student-built Shiny apps!</p>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="https://rna.wlu.edu/bio285/" class="thumbnail">
+                <h4>Bio 285</h4>
+                <img src="images/8cfc0c10.bio285.png" class="img-responsive" alt="classes">
+                <p>Course website for Biol-285: Introduction to Systems Biology.</p>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="https://rna.wlu.edu/bio285/" class="thumbnail">
+                <h4>Bio 297</h4>
+                <img src="images/f27b07e1.bio297.png" class="img-responsive" alt="classes">
+                <p>Course website for Biol-297: Bioinformatics and Computational Biology.</p>
+              </a>
+            </div>
+          </div>
+          <div class="page-header" id="papers"><h1>Papers</h1></div>
+          <div class="row">
+            <div class="col-md-4">
+              <a href="https://rna.wlu.edu/papers/bergkesselWhitworth2011.html" class="thumbnail">
+                <h4>Yeast splicing arrays</h4>
+                <img src="images/09015018.splicing.png" class="img-responsive" alt="papers">
+                <p>Web supplement for Bergkessel et al. 2011.</p>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="https://rna.wlu.edu/shiny-apps/rna-browse-public/" class="thumbnail">
+                <h4>Frog RGC RNA-Seq</h4>
+                <img src="images/000727b3.frog.png" class="img-responsive" alt="papers">
+                <p>Interactive RNA-Seq data viewer for Whitworth et al. 2016.</p>
               </a>
             </div>
           </div>
@@ -161,6 +199,6 @@
             ga('create','UA-33566631-1');ga('send','pageview');
         </script>
 
-        <script data-main="scripts/30d2874f.main" src="bower_components/requirejs/require.js"></script>
+        <script data-main="scripts/0159045d.main" src="bower_components/requirejs/require.js"></script>
 </body>
 </html>

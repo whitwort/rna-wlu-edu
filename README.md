@@ -27,8 +27,4 @@ RNA.wlu.edu server:
 * [nodejs](http://nodejs.org/) for a variety of apps on the backend
 * [apache](http://httpd.apache.org/) for legacy apps on the backend
 * [shiny-server](https://github.com/rstudio/shiny-server) and [shiny](http://www.rstudio.com/shiny/) (runs on nodejs) for interactive models
-* All on [Ubuntu](http://www.ubuntu.com/server) VMs
-
-
-
-
+* All on [Linux](https://www.gnu.org/gnu/linux-and-gnu.html)
