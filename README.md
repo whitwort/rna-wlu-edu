@@ -26,5 +26,5 @@ RNA.wlu.edu server:
 * [nginx](http://nginx.org/) for our world-facing static content and reverse-proxy server
 * [nodejs](http://nodejs.org/) for a variety of apps on the backend
 * [apache](http://httpd.apache.org/) for legacy apps on the backend
-* [shiny-server](https://github.com/rstudio/shiny-server) and [shiny](http://www.rstudio.com/shiny/) (runs on nodejs) for interactive models
-* All on [Linux](https://www.gnu.org/gnu/linux-and-gnu.html)
+* [shiny-server](https://github.com/rstudio/shiny-server) and [shiny](http://www.rstudio.com/shiny/) for interactive models
+* All on [Linux](https://www.gnu.org/gnu/linux-and-gnu.html) containers
